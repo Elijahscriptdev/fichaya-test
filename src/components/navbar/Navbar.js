@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-
+import { HiBell } from "react-icons/hi";
+import { BsFillPersonFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -57,8 +58,12 @@ const Navbar = () => {
 
         <div>
           <ul className='nav-icons'>
-            <li>o</li>
-            <li>o</li>
+            <li>
+              <HiBell />
+            </li>
+            <li>
+              <BsFillPersonFill />
+            </li>
           </ul>
         </div>
       </nav>

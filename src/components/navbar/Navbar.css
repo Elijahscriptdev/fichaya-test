@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 82.5%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-logo,
+.nav-links,
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav-links li {
+  font-family: "Mukta", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #606077;
+  margin: 0 15px;
+}

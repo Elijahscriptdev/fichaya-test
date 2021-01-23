@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import InvoiceInfo from './components/request/InvoiceInfo';
+import PreviewInvoice from './components/request/PreviewInvoice';
+// import InvoiceInfo from './components/request/InvoiceInfo';
 // import RequestInformation from './components/request/RequestInformation';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <RequestInformation /> */}
-      <InvoiceInfo />
+      {/* <InvoiceInfo /> */}
+      <PreviewInvoice />
     </div>
   );
 }

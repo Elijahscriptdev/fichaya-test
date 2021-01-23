@@ -1,0 +1,39 @@
+.preview-invoice-container {
+  max-width: 82.5%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.preview-invoice {
+  max-width: 580px;
+  height: 758.07px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-col h3,
+.first-col h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  color: #606077;
+}
+
+.first-col .from {
+  margin: 30px 0;
+}
+
+.second-col .from {
+  margin: 22px 0;
+}
+
+.second-col .align {
+  margin-top: 43px;
+}

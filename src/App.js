@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './components/navbar/Navbar';
+import InvoiceInfo from './components/request/InvoiceInfo';
+// import RequestInformation from './components/request/RequestInformation';
 
 function App() {
   return (
     <div className="App">
-      <h1>working?</h1>
+      <Navbar />
+      {/* <RequestInformation /> */}
+      <InvoiceInfo />
     </div>
   );
 }

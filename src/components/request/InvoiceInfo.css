@@ -1,0 +1,117 @@
+.invoice-info-container {
+  max-width: 82.5%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.invoice-form form {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+}
+
+.invoice-form-one {
+  max-width: 580px;
+  height: 488px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.invoice-form-two {
+  max-width: 580px;
+  height: 488px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+form .form-col {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 27px;
+  color: #373737;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.form-col input {
+  max-width: 500px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #dea000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.mid-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.mid-col input {
+  max-width: 240px;
+  height: 60px;
+  border: 1px solid #dea000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.amount .field {
+  max-width: 240px;
+  height: 60px;
+  border: 1px solid #dea000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: none;
+  background: #ededed;
+  border-radius: 5px;
+}
+
+.field p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 165.5%;
+  color: #606077;
+}
+
+.cancel input {
+  max-width: 500px;
+  height: 60px;
+  background: none;
+  border: 2px solid #01037c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.create input {
+  max-width: 500px;
+  height: 60px;
+  padding: 0 20px;
+  cursor: pointer;
+  background: #dea000;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}

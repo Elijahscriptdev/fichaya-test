@@ -1,6 +1,7 @@
 .request-info-container {
   max-width: 82.5%;
   margin: 0 auto;
+  position: relative;
 }
 
 .request-info-title {
@@ -23,6 +24,7 @@
   border-radius: 10px;
   margin-top: 26px;
   padding: 30px;
+  position: relative;
 }
 
 .request-info-data {
@@ -107,4 +109,46 @@ hr {
   border-radius: 5px;
   padding: 0 5px;
   margin-top: 5px;
+  cursor: pointer;
+}
+
+.request-info-dropdown {
+  position: absolute;
+  right: 30px;
+  bottom: 16.27%;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 215px;
+}
+
+.request-info-dropdown ul li {
+  list-style-type: none;
+  padding: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #606077;
+  cursor: pointer;
+}
+
+.request-info-dropdown {
+  position: absolute;
+  right: 30px;
+  bottom: 16.27%;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 13px solid #ffffff;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: -10px;
 }

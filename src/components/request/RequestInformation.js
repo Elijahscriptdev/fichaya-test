@@ -69,6 +69,17 @@ const RequestInformation = () => {
             <RiArrowDownSLine />
           </span>
         </div>
+
+        <div className='request-info-dropdown'>
+          <ul>
+              <li>Contact customer</li>
+              <hr/>
+              <li>Generate invoice</li>
+              <hr/>
+              <li>Reject request</li>
+          </ul>
+          <div className="arrow-down"></div>
+        </div>
       </div>
     </div>
   );

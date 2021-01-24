@@ -1,17 +1,19 @@
-import './App.css';
-// import Navbar from './components/navbar/Navbar';
-// import PreviewInvoice from './components/request/PreviewInvoice';
-// import InvoiceInfo from './components/request/InvoiceInfo';
-import RequestInformation from './components/request/RequestInformation';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import PreviewInvoice from './components/request/PreviewInvoice';
+import InvoiceInfo from './components/request/InvoiceInfo';
+import RequestInformation from "./components/request/RequestInformation";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar /> */}
-      <RequestInformation />
-      {/* <InvoiceInfo /> */}
-      {/* <PreviewInvoice /> */}
-    </div>
+    <Router>
+      <Route exact path='/' component={RequestInformation} />
+      <Switch>
+        <Route exact path='/invoice-info' component={InvoiceInfo} />
+        <Route path='/preview-invoice' component={PreviewInvoice} />
+      </Switch>
+    </Router>
   );
 }
 

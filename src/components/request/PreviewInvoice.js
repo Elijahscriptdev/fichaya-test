@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import "./PreviewInvoice.css";
 
@@ -131,7 +132,9 @@ const PreviewInvoice = () => {
         <form>
           <div className='actions'>
             <div className='go-back'>
-              <input type='submit' value='GO BACK' />
+              <Link to='/invoice-info' className='nav-links'>
+                <input type='submit' value='GO BACK' />
+              </Link>
             </div>
             <div className='customer'>
               <input type='submit' value='SEND TO CUSTOMER' />

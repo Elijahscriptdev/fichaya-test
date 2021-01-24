@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import "./InvoiceInfo.css";
 
@@ -88,10 +89,14 @@ const InvoiceInfo = () => {
 
               <div className='mid-col'>
                 <div className='form-col cancel'>
-                  <input type='submit' value='CANCEL' />
+                  <Link to='/' className='nav-links'>
+                    <input type='submit' value='CANCEL' />
+                  </Link>
                 </div>
                 <div className='form-col create'>
-                  <input type='submit' value='CREATE INVOICE' />
+                  <Link to='/preview-invoice' className='nav-links'>
+                    <input type='submit' value='CREATE INVOICE' />
+                  </Link>
                 </div>
               </div>
             </div>

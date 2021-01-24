@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./RequestInformation.css";
 import { RiArrowDownSLine } from "react-icons/ri";
 import Navbar from "../navbar/Navbar";
+import { Link } from "react-router-dom";
 
 const RequestInformation = () => {
   const [click, setClick] = useState(false);
@@ -87,7 +88,11 @@ const RequestInformation = () => {
             <ul>
               <li>Contact customer</li>
               <hr />
-              <li>Generate invoice</li>
+              <li>
+                <Link to='/invoice-info' className='nav-links'>
+                  Generate invoice
+                </Link>
+              </li>
               <hr />
               <li>Reject request</li>
             </ul>

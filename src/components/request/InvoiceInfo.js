@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import "./InvoiceInfo.css";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const InvoiceInfo = () => {
   return (
@@ -46,10 +47,16 @@ const InvoiceInfo = () => {
                   <div className='form-col'>
                     <label>Issue date</label>
                     <input type='text' name='name' placeholder='08/10/2020' />
+                    <div className='open'>
+                      <MdKeyboardArrowDown />
+                    </div>
                   </div>
                   <div className='form-col'>
                     <label>Due date</label>
                     <input type='text' name='name' placeholder='08/10/2020' />
+                    <div className='open'>
+                      <MdKeyboardArrowDown />
+                    </div>
                   </div>
                 </div>
 
@@ -61,6 +68,9 @@ const InvoiceInfo = () => {
                   <div className='form-col'>
                     <label>V.A.T %</label>
                     <input type='text' name='name' placeholder='7.5%' />
+                    <div className='open'>
+                      <MdKeyboardArrowDown />
+                    </div>
                   </div>
                 </div>
 

@@ -243,7 +243,7 @@ label {
 /* Smartphones (portrait and landscape) ---------- */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .invoice-info-container {
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
   }

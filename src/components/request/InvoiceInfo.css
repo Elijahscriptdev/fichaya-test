@@ -4,6 +4,28 @@
   position: relative;
 }
 
+.preview-invoice-title {
+  height: 29px;
+  max-width: 154px;
+  border-radius: 4px;
+  background: #2e2e99;
+  font-size: 0.95rem;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 1px 7px;
+  margin-top: 40px;
+}
+
+.request-info-subtitle {
+  margin: 15px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #606077;
+}
+
 .invoice-form form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -32,6 +54,13 @@ form .form-col {
   display: flex;
   flex-direction: column;
   margin: 10px 0;
+  position: relative;
+}
+
+.form-col .open {
+  position: absolute;
+  top: 50px;
+  right: 20px;
 }
 
 label {

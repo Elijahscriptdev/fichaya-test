@@ -8,8 +8,8 @@ const PreviewInvoice = () => {
     <>
       <Navbar />
       <div className='preview-invoice-container'>
-        <div className='preview-invoice-title'>Request Information</div>
-        <div className='preview-invoice-title'>Request Information</div>
+        <div className='preview-invoice-title'>Generate invoice</div>
+        <div className='request-info-subtitle'>PREVIEW YOUR INVOICE</div>
 
         <div className='preview-invoice-con'>
           <div className='preview-invoice'>

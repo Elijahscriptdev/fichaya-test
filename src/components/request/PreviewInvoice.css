@@ -4,6 +4,16 @@
   position: relative;
 }
 
+.request-info-subtitle {
+  margin: 15px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #606077;
+}
+
 .preview-invoice-con {
   max-width: 580px;
   height: 758.07px;

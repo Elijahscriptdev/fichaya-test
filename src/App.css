@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #606077;
+  text-decoration: none;
+}

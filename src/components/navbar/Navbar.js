@@ -39,7 +39,7 @@ const Navbar = () => {
             <li>DASHBOARD</li>
             <li>CUSTOMERS</li>
             <li>ASSOCIATES</li>
-            <li>REQUESTS</li>
+            <li className='focus'>REQUESTS</li>
             <li>SCHEDULES</li>
             <li>PARENTS</li>
             <li>SETTINGS</li>

@@ -8,8 +8,8 @@ const InvoiceInfo = () => {
     <>
       <Navbar />
       <div className='invoice-info-container'>
-        <div className='request-info-title'>Request Information</div>
-        <div className='request-info-title'>Request Information</div>
+        <div className='request-info-title'>Generate invoice</div>
+        <div className='request-info-subtitle'>ENTER YOUR INVOICE</div>
 
         <div className='invoice-form'>
           <form>

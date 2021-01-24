@@ -32,6 +32,7 @@
   text-align: left;
   color: #606077;
   margin: 0 15px;
+  cursor: pointer;
 }
 
 .nav-links li:hover {
@@ -45,5 +46,6 @@
   background: #2e2e99;
   border-radius: 4px;
   color: #ffffff;
-  font-size: .9rem;
+  font-size: 0.9rem;
+  cursor: pointer;
 }

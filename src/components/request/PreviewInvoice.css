@@ -4,13 +4,16 @@
   position: relative;
 }
 
-.preview-invoice {
+.preview-invoice-con {
   max-width: 580px;
   height: 758.07px;
   background: #ffffff;
   border: 1px solid #ededed;
   border-radius: 10px;
   padding: 30px;
+}
+
+.preview-invoice {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -27,7 +30,7 @@
 }
 
 .first-col .from {
-  margin: 30px 0;
+  margin: 37px 0;
 }
 
 .second-col .from {
@@ -36,4 +39,127 @@
 
 .second-col .align {
   margin-top: 43px;
+}
+
+.from p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #373737;
+}
+
+.from .unpaid {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #f6431e;
+}
+
+.table-header ul,
+.table-body ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: center;
+  list-style-type: none;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.desc {
+  text-align: left;
+}
+
+.table-header ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #606077;
+}
+
+hr {
+  border: 1px solid #ededed;
+}
+
+.table-body ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 165.5%;
+  color: #373737;
+}
+
+.total {
+  width: 269px;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.sub-total ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.unique {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #606077;
+}
+
+.unique-two {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #373737;
+}
+
+.blue {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #01037c;
+}
+
+.actions {
+  max-width: 580px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  margin: 15px 0 30px;
+}
+
+.go-back input {
+  width: 100%;
+  height: 60px;
+  background: none;
+  border: 2px solid #01037c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 20px;
+  cursor: pointer;
+  color: #01037c;
+  font-weight: bold;
+}
+
+.customer input {
+  width: 100%;
+  height: 60px;
+  background: #dea000;
+  border: 1px solid #dea000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 20px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
 }

@@ -124,3 +124,111 @@ label {
   color: #ffffff;
   font-weight: bold;
 }
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .invoice-info-container {
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .invoice-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    margin-top: 5px;
+  }
+
+  .invoice-form-one {
+    max-width: 100%;
+    height: 488px;
+    background: #ffffff;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .invoice-form-two {
+    max-width: 100%;
+    height: 788px;
+    background: #ffffff;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  form .form-col {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 27px;
+    color: #373737;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .form-col input {
+    max-width: 500px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #dea000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 20px;
+  }
+
+  .mid-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .mid-col input {
+    max-width: 500px;
+    height: 60px;
+    border: 1px solid #dea000;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .amount .field {
+    max-width: 500px;
+  }
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px) {
+  /* styles */
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px) {
+  /* styles */
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* styles */
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px) {
+  /* styles */
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) {
+  /* styles */
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+  /* styles */
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px) {
+  /* styles */
+}

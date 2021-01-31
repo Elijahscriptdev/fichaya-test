@@ -24,6 +24,7 @@ This is Fichaya Frontend Test
 - Google Fonts
 - Javascript(ES6)
 - React
+- React Hooks
 - React Icons
 
 ## Live Demo
